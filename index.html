@@ -12,29 +12,62 @@
   <meta property="og:url" content="https://prakasastudio.github.io/" />
   <meta property="og:type" content="website" />
 
-  <script type="application/ld+json">
+ <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "PRAKASA STUDIO",
-  "image": "https://prakasastudio.github.io/ps-logo.png",
-  "@id": "https://prakasastudio.github.io/",
-  "url": "https://prakasastudio.github.io/",
-  "telephone": "+6285775609498",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Jl. H Soleh 1a, No.63, Sukabumi Selatan, Kebayoran Lama",
-    "addressLocality": "Jakarta Barat",
-    "addressRegion": "DKI Jakarta",
-    "postalCode": "11560",
-    "addressCountry": "ID"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "120"
-  },
-  "description": "Kontraktor interior dan jasa design build profesional di Jakarta. Spesialis renovasi, custom furniture, dan interior kantor."
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "PRAKASA STUDIO",
+      "image": "https://prakasastudio.github.io/ps-logo.png",
+      "@id": "https://prakasastudio.github.io/",
+      "url": "https://prakasastudio.github.io/",
+      "telephone": "+6285775609498",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. H Soleh 1a, No.63, Sukabumi Selatan, Kebayoran Lama",
+        "addressLocality": "Jakarta Barat",
+        "addressRegion": "DKI Jakarta",
+        "postalCode": "11560",
+        "addressCountry": "ID"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "120"
+      },
+      "description": "Kontraktor interior dan jasa design build profesional di Jakarta. Spesialis renovasi, custom furniture, dan interior kantor."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Berapa biaya jasa renovasi interior di Prakasa Studio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Biaya jasa renovasi interior di Prakasa Studio sangat fleksibel, tergantung pada luasan ruang dan material yang dipilih. Kami menyediakan konsultasi gratis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Apakah Prakasa Studio melayani pembuatan furniture custom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ya, kami spesialis dalam pembuatan furniture custom seperti kitchen set, wardrobe, dan furniture kantor dengan kualitas material premium."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Berapa lama proses pengerjaan desain interior?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Proses desain biasanya memakan waktu 1-2 minggu tergantung kerumitan proyek."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
   
@@ -1294,6 +1327,7 @@
 </body>
 
 </html>
+
 
 
 
